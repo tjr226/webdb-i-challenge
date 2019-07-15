@@ -9,8 +9,6 @@ server.use(express.json());
 server.get('/', (req, res) => {
     queryString = req.body;
     db('accounts')
-        // expecting object like this
-        // {"limit": "pos int", "sortby": "column name", "sortdir": "asc or desc"}
         .limit(queryString.limit)
         .orderBy(queryString.sortby, queryString.sortdir)
         .then(accounts => {
