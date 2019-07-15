@@ -30,8 +30,8 @@ WRITTEN IN QUERIES.MD doc
 
 ### Write Accounts API
 
-- Write CRUD endpoints for the `accounts` resource. Use the `db` object imported from `data/dbConfig.js` for database access via `knex`.
-- Manually test your endpoints with a REST client like `Insomnia` or `Postman` to check they are working as expected.
+- [ x ] Write CRUD endpoints for the `accounts` resource. Use the `db` object imported from `data/dbConfig.js` for database access via `knex`.
+- [ x ] Manually test your endpoints with a REST client like `Insomnia` or `Postman` to check they are working as expected.
 
 #### Accounts Schema
 
